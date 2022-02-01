@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "productId": 9,
+      "productName": "애기 용품 팔아 ",
+      "productPrice": "100000000",
+      "productDetail": "g304 새 상품",
+      "productViewCnt": 0,
+      "category": "HOUSEHOLDS",
+      "status": "SALE",
+      "createdAt": "2022-01-24T16:46:35.602986",
+      "updatedAt": "2022-01-24T16:46:35.602986",
+      "urlList": [
+        "https://ager-s3.s3.ap-northeast-2.amazonaws.com/4686577623f94f53891eda2b5d983724.png"
+      ]
+    },
+    {
+      "productId": 8,
+      "productName": "애기 용품 팔아 ",
+      "productPrice": "100000000",
+      "productDetail": "g304 새 상품",
+      "productViewCnt": 0,
+      "category": "HOUSEHOLDS",
+      "status": "SALE",
+      "createdAt": "2022-01-24T16:46:35.105427",
+      "updatedAt": "2022-01-24T16:46:35.105427",
+      "urlList": [
+        "https://ager-s3.s3.ap-northeast-2.amazonaws.com/502fff52b85d49a8b4adb34bea301cca.png"
+      ]
+    },
+    {
+      "productId": 7,
+      "productName": "애기 용품 팔아 ",
+      "productPrice": "100000000",
+      "productDetail": "g304 새 상품",
+      "productViewCnt": 9,
+      "category": "HOUSEHOLDS",
+      "status": "SALE",
+      "createdAt": "2022-01-24T16:46:34.603659",
+      "updatedAt": "2022-01-24T16:47:17.791743",
+      "urlList": [
+        "https://ager-s3.s3.ap-northeast-2.amazonaws.com/8b8d00b243c44131aaff7a9e7dd371d0.png"
+      ]
+    },
+    {
+      "productId": 6,
+      "productName": "애기 용품 팔아 ",
+      "productPrice": "100000000",
+      "productDetail": "g304 새 상품",
+      "productViewCnt": 0,
+      "category": "HOUSEHOLDS",
+      "status": "SALE",
+      "createdAt": "2022-01-24T16:46:34.036063",
+      "updatedAt": "2022-01-24T16:46:34.036063",
+      "urlList": [
+        "https://ager-s3.s3.ap-northeast-2.amazonaws.com/598133e72ecd4b6d98eb01e4cfd741ac.png"
+      ]
+    },
+    {
+      "productId": 5,
+      "productName": "애기 용품 팔아 ",
+      "productPrice": "100000000",
+      "productDetail": "g304 새 상품",
+      "productViewCnt": 0,
+      "category": "HOUSEHOLDS",
+      "status": "SALE",
+      "createdAt": "2022-01-24T16:46:33.603563",
+      "updatedAt": "2022-01-24T16:46:33.603563",
+      "urlList": [
+        "https://ager-s3.s3.ap-northeast-2.amazonaws.com/5ccac9b16581470fbd6991847e10bfcf.png"
+      ]
+    }
+  ]
+}
