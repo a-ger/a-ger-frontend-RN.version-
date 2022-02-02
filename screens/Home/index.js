@@ -10,7 +10,7 @@ const index = ({ navigation, route }) => {
 
   useEffect(() => {
     navigation.setOptions({
-      title: "A-ger",
+      title: "홈",
       headerStyle: {
         backgroundColor: "#fff",
         shadowColor: "#1F266A",

@@ -18,6 +18,7 @@ const Root = ({ navigation }) => {
         name="홈"
         component={HomeStack}
         options={{
+          headerShown: false,
           tabBarLabel: "홈",
           tabBarIcon: ({ color }) => (
             <MaterialCommunityIcons name="home" color={color} size={26} />
@@ -28,6 +29,7 @@ const Root = ({ navigation }) => {
         name="상품등록"
         component={UploadingStack}
         options={{
+          headerShown: false,
           tabBarLabel: "상품등록",
           tabBarIcon: ({ color }) => (
             <MaterialCommunityIcons
@@ -43,6 +45,7 @@ const Root = ({ navigation }) => {
         name="채팅"
         component={ChatStack}
         options={{
+          headerShown: false,
           tabBarLabel: "채팅",
           tabBarIcon: ({ color }) => (
             <MaterialCommunityIcons name="chat" color={color} size={26} />
@@ -54,6 +57,7 @@ const Root = ({ navigation }) => {
         name="나의 프로필"
         component={ProfileStack}
         options={{
+          headerShown: false,
           tabBarLabel: "나의 프로필",
           tabBarIcon: ({ color }) => (
             <MaterialCommunityIcons
