@@ -5,6 +5,7 @@ import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityI
 
 //stacks
 import HomeStack from "./Home/index";
+import NoticeStack from "./Notice/index";
 import ChatStack from "./Chat/index";
 import ProfileStack from "./Profile/index";
 import UploadingStack from "./Uploading/index";
@@ -25,11 +26,22 @@ const Root = ({ navigation }) => {
           ),
         }}
       />
+
+      <Tab.Screen
+        name="게시판"
+        component={NoticeStack}
+        options={{
+          tabBarLabel: "게시판",
+          tabBarIcon: ({ color }) => (
+            <MaterialCommunityIcons name="bell" color={color} size={26} />
+          ),
+        }}
+      />
+
       <Tab.Screen
         name="상품등록"
         component={UploadingStack}
         options={{
-          headerShown: false,
           tabBarLabel: "상품등록",
           tabBarIcon: ({ color }) => (
             <MaterialCommunityIcons
@@ -45,7 +57,6 @@ const Root = ({ navigation }) => {
         name="채팅"
         component={ChatStack}
         options={{
-          headerShown: false,
           tabBarLabel: "채팅",
           tabBarIcon: ({ color }) => (
             <MaterialCommunityIcons name="chat" color={color} size={26} />
@@ -57,7 +68,6 @@ const Root = ({ navigation }) => {
         name="나의 프로필"
         component={ProfileStack}
         options={{
-          headerShown: false,
           tabBarLabel: "나의 프로필",
           tabBarIcon: ({ color }) => (
             <MaterialCommunityIcons
