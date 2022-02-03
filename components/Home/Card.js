@@ -12,7 +12,12 @@ import {
 export default function Card({ content, navigation }) {
   console.log(content.urlList[0]);
   return (
-    <View style={styles.cardContainer}>
+    <TouchableOpacity
+      onPress={() => {
+        navigation.navigate("Detail", { content });
+      }}
+      style={styles.cardContainer}
+    >
       <Image
         style={styles.imageThumb}
         source={{
@@ -24,7 +29,7 @@ export default function Card({ content, navigation }) {
         <Text style={styles.textDuration}>3시간 전</Text>
         <Text style={styles.textPrice}>{content.productPrice} 원</Text>
       </View>
-    </View>
+    </TouchableOpacity>
   );
 }
 

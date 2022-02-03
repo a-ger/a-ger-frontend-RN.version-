@@ -5,6 +5,7 @@ import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityI
 
 //stacks
 import HomeStack from "./Home/index";
+import NoticeStack from "./Notice/index";
 import ChatStack from "./Chat/index";
 import ProfileStack from "./Profile/index";
 import UploadingStack from "./Uploading/index";
@@ -18,12 +19,25 @@ const Root = ({ navigation }) => {
         name="홈"
         component={HomeStack}
         options={{
+          headerShown: false,
           tabBarLabel: "홈",
           tabBarIcon: ({ color }) => (
             <MaterialCommunityIcons name="home" color={color} size={26} />
           ),
         }}
       />
+
+      <Tab.Screen
+        name="게시판"
+        component={NoticeStack}
+        options={{
+          tabBarLabel: "게시판",
+          tabBarIcon: ({ color }) => (
+            <MaterialCommunityIcons name="bell" color={color} size={26} />
+          ),
+        }}
+      />
+
       <Tab.Screen
         name="상품등록"
         component={UploadingStack}
